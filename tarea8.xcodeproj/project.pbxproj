@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		77CB53D22A1065E20041FDE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB53D12A1065E20041FDE8 /* AppDelegate.swift */; };
 		77CB53D42A1065E20041FDE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB53D32A1065E20041FDE8 /* SceneDelegate.swift */; };
-		77CB53D62A1065E20041FDE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB53D52A1065E20041FDE8 /* ViewController.swift */; };
+		77CB53D62A1065E20041FDE8 /* NoteDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB53D52A1065E20041FDE8 /* NoteDetailVC.swift */; };
 		77CB53D92A1065E20041FDE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CB53D72A1065E20041FDE8 /* Main.storyboard */; };
 		77CB53DC2A1065E20041FDE8 /* tarea8.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77CB53DA2A1065E20041FDE8 /* tarea8.xcdatamodeld */; };
 		77CB53DE2A1065E30041FDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77CB53DD2A1065E30041FDE8 /* Assets.xcassets */; };
 		77CB53E12A1065E30041FDE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CB53DF2A1065E30041FDE8 /* LaunchScreen.storyboard */; };
+		77CB53E92A106FA20041FDE8 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB53E82A106FA20041FDE8 /* NoteCell.swift */; };
+		77CB53EB2A106FCA0041FDE8 /* NoteTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB53EA2A106FCA0041FDE8 /* NoteTableView.swift */; };
+		77CB53ED2A1075F60041FDE8 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB53EC2A1075F60041FDE8 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		77CB53CE2A1065E20041FDE8 /* tarea8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tarea8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CB53D12A1065E20041FDE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77CB53D32A1065E20041FDE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		77CB53D52A1065E20041FDE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77CB53D52A1065E20041FDE8 /* NoteDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailVC.swift; sourceTree = "<group>"; };
 		77CB53D82A1065E20041FDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77CB53DB2A1065E20041FDE8 /* tarea8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tarea8.xcdatamodel; sourceTree = "<group>"; };
 		77CB53DD2A1065E30041FDE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77CB53E02A1065E30041FDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77CB53E22A1065E30041FDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77CB53E82A106FA20041FDE8 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		77CB53EA2A106FCA0041FDE8 /* NoteTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableView.swift; sourceTree = "<group>"; };
+		77CB53EC2A1075F60041FDE8 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,15 @@
 			children = (
 				77CB53D12A1065E20041FDE8 /* AppDelegate.swift */,
 				77CB53D32A1065E20041FDE8 /* SceneDelegate.swift */,
-				77CB53D52A1065E20041FDE8 /* ViewController.swift */,
+				77CB53D52A1065E20041FDE8 /* NoteDetailVC.swift */,
 				77CB53D72A1065E20041FDE8 /* Main.storyboard */,
 				77CB53DD2A1065E30041FDE8 /* Assets.xcassets */,
 				77CB53DF2A1065E30041FDE8 /* LaunchScreen.storyboard */,
 				77CB53E22A1065E30041FDE8 /* Info.plist */,
 				77CB53DA2A1065E20041FDE8 /* tarea8.xcdatamodeld */,
+				77CB53E82A106FA20041FDE8 /* NoteCell.swift */,
+				77CB53EA2A106FCA0041FDE8 /* NoteTableView.swift */,
+				77CB53EC2A1075F60041FDE8 /* Note.swift */,
 			);
 			path = tarea8;
 			sourceTree = "<group>";
@@ -142,7 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				77CB53DC2A1065E20041FDE8 /* tarea8.xcdatamodeld in Sources */,
-				77CB53D62A1065E20041FDE8 /* ViewController.swift in Sources */,
+				77CB53EB2A106FCA0041FDE8 /* NoteTableView.swift in Sources */,
+				77CB53ED2A1075F60041FDE8 /* Note.swift in Sources */,
+				77CB53D62A1065E20041FDE8 /* NoteDetailVC.swift in Sources */,
+				77CB53E92A106FA20041FDE8 /* NoteCell.swift in Sources */,
 				77CB53D22A1065E20041FDE8 /* AppDelegate.swift in Sources */,
 				77CB53D42A1065E20041FDE8 /* SceneDelegate.swift in Sources */,
 			);
